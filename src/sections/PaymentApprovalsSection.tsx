@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { dbSelect, dbUpdate } from '../lib/db';
 import { supabase } from '../lib/supabase';
 
